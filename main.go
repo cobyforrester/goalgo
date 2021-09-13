@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	sortedArr := []int{}
-	fmt.Println(algorithms.BinarySearch(sortedArr))
+	sortedArr := []int{9, 9, 10}
+	fmt.Println(algorithms.BinarySearch(sortedArr, 10))
 }
